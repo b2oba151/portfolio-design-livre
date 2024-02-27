@@ -312,16 +312,50 @@ body{
     height: 2.5rem;
 }
 
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
+.skills-box .skills-content {
+    flex: 1 1 20rem;
+}
 
+.skills-content h3 {
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-bottom: .6em;
+}
 
+.skills-box .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
 
+.skills-box .content span {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--white-color);
+    width: 6rem;
+    height: 5rem;
+    border: var(--border);
+    border-radius: .3rem;
+    font-weight: 600;
+    transition: .3s ease;
+}
 
+.skills-box .content span i{
+    box-shadow: var(--box-shadow);
+}
 
-
-
-
-
+.skills-box .content span i{
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
 
 
 
